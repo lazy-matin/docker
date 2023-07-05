@@ -1,4 +1,13 @@
 # from https://hub.docker.com/_/microsoft-vscode-devcontainers
 FROM mcr.microsoft.com/devcontainers/cpp:ubuntu-18.04
 LABEL maintainer="matin03@gmail.com"
-LABEL source="https://github.com/wbfw109/study-core/tree/dev/docker/Dockerfiles/unitree_ros_go_1_dev_env"
+LABEL source="https://github.com/matin03/docker/tree/study/ubuntu/arm_18_04"
+
+# settings
+SHELL ["/bin/bash", "-c"]
+
+RUN apt update -y
+RUN apt upgrade -y
+
+# Entrypoint
+ENTRYPOINT ["/bin/bash"]

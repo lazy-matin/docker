@@ -1,0 +1,5 @@
+{
+    "name": "Unitree ROS1(Melodic) Development environment",
+    "image": "matin/ubuntu-arm:18.04",
+    "remoteUser": "root"
+  }
