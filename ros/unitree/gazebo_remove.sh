@@ -1,0 +1,1 @@
+sudo apt remove ignition-citadel && sudo apt autoremove
